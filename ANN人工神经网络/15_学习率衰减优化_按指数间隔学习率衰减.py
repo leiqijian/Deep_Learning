@@ -30,6 +30,7 @@ optim.lr_scheduler.ExponentialLR(optimizer=optimizer, gamma=0.9)
     - 优先选择指数学习率衰减方法
     - 根据经验设置间隔选择指定间隔学习率衰减方法
     - 简单模型选择等间隔学习率衰减方法
+    -1
 
 '''
 import torch
